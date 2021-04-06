@@ -1,5 +1,4 @@
 const path = require('path')
-const glob = require('glob')
 
 module.exports = {
   webpack: (config, { dev }) => {
@@ -23,7 +22,6 @@ module.exports = {
               outputStyle: 'compressed', // These options are from node-sass: https://github.com/sass/node-sass
               includePaths: ['styles', 'node_modules']
                 .map((d) => path.join(__dirname, d))
-                .map((g) => glob.sync(g))
                 .reduce((a, c) => a.concat(c), [])
             }
           }
