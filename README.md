@@ -5,7 +5,7 @@ A Next.js starter based on the Forty site template, designed by HTML5 UP. Check 
 
 http://nextjs-forty.surge.sh/
 
-## Getting Started
+## Getting Started (Test)
 
 To get started, simply clone the repository and run `npm install`
 
